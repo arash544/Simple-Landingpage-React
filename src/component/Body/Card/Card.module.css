@@ -1,0 +1,14 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    text-align: center;
+
+} 
+
+.main{
+    min-height: 120px ;
+}

@@ -1,0 +1,33 @@
+.footermain{
+    margin-top:150px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.8);
+    color: white;
+}
+.footerwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.footertxt{
+    display: flex;
+}
+.icons{
+    margin:10px;
+}
+.footertxt p{
+    padding-top:50px;
+}
+@media screen and (max-width:1000px){
+    .footertxt p{
+        text-align: center;
+        padding:50px;
+        line-height: 1.5em;
+    }
+  }

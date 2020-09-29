@@ -1,0 +1,47 @@
+.modalwrapper{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.modalwrapper.show{
+    display: block;
+}
+.modal{
+    width: 30%;
+    padding: 50px;
+    border-radius: 20px;
+     background-color: #fff;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+}
+.close{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+@media screen and (max-width:876px){
+    .modalwrapper{
+       display:none;
+    }
+  }
+.pic{
+    margin-bottom:50px;
+    width: 150px;
+    height: 170px;
+}
+.txt{
+    line-height:1.6
+}

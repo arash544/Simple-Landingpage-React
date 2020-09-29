@@ -1,0 +1,32 @@
+button{
+    margin-top: 15px;
+    padding:5px 10px;
+    margin-left:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    padding: 7px 25px;
+
+}
+.gray{
+background-color: white;
+font-size: 16px;
+margin-top: 30px;
+border: 1px solid black;
+}
+.dark.gray{
+    border: 1px solid black
+  }
+.infos{
+background-color: rgb(23, 81, 146);
+color: white;
+padding: 10px 60px;
+border-radius: 5px;
+font-size: 16px;
+border: 0;
+}
+.gray:active,
+.gray:focus
+{
+    outline: 0;
+}
